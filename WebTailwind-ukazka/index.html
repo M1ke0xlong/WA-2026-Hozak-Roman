@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <title>WA 2026 Hozák Roman</title>
+    <style type="text/tailwindcss">
+        @theme {
+            --color-myPrimaryColor: #f96d00;
+        }
+        @layer base{
+            h2 {
+                @apply text-2xl mt-4
+            }
+            p {
+                @apply text-base font-serif mt-2
+            }
+            .card {
+                @apply bg-teal-800 p-5 rounded-xl
+            }
+            nav a {
+                @apply bg-teal-500 text-white rounded-md py-2 px-4 text-center no-underline whitespace-nowrap hover:bg-teal-800
+            }
+            nav li {
+                @apply flex-grow basis-full
+            }
+        }
+    </style>
+</head>
+
+<body class="bg-teal-500 text-gray-200">
+    <div class="w-[95%] mx-auto lg:w[80%]">
+        <header class="text-center bg-myPrimaryColor px-4 py-6">
+            <h1>WA 2026 - první web</h1>
+        </header>
+        <nav>
+            <ul class="flex gap-2 justify-center py-3">
+                <li><a href="index.html">Úvod</a></li>
+                <li><a href="#">O nás</a></li>
+                <li><a href="#">Kontakt</a></li>
+                <li><a href="https://www.w3schools.com">W3Schools</a></li>
+            </ul>
+        </nav>
+        <main>
+            <section class="grid-container grid gap-2 grid-cols-[repeat(auto-fit,minmax(250px,1fr))]">
+                <article class="card">
+                    <h2>Nadpis článku 1</h2>
+                    <p><b>Lorem ipsum dolor sit amet consectetur adipisicing elit.</b> Ab saepe distinctio dolores eaque ipsam adipisci veritatis voluptatem quis tempore. Ex obcaecati harum est dicta tenetur alias sunt eaque modi aspernatur!</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam cum voluptatem maxime impedit, possimus iusto. Natus ab rerum saepe. Veniam minus totam, molestias dolores ab tenetur quibusdam libero maiores deserunt.</p>
+                </article>
+                <article class="card">
+                    <h2>Nadpis článku 2</h2>
+                    <p><strong>Lorem ipsum dolor sit amet consectetur adipisicing elit.</strong> Ab saepe distinctio dolores eaque ipsam adipisci veritatis voluptatem quis tempore. Ex obcaecati harum est dicta tenetur alias sunt eaque modi aspernatur!</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam cum voluptatem maxime impedit, possimus iusto. Natus ab rerum saepe. Veniam minus totam, molestias dolores ab tenetur quibusdam libero maiores deserunt.</p>
+                </article>
+                <article class="card">
+                    <h2>Nadpis článku 3</h2>
+                    <p><em>Lorem ipsum dolor sit amet consectetur adipisicing elit.</em> Ab saepe distinctio dolores eaque ipsam adipisci veritatis voluptatem quis tempore. Ex obcaecati harum est dicta tenetur alias sunt eaque modi aspernatur!</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam cum voluptatem maxime impedit, possimus iusto. Natus ab rerum saepe. Veniam minus totam, molestias dolores ab tenetur quibusdam libero maiores deserunt. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ad architecto reprehenderit minus neque, totam, deserunt ex quam asperiores, debitis facere enim deleniti corporis? Sapiente laudantium asperiores soluta, veritatis dolorem beatae!</p>
+                </article>
+                <article class="card">
+                    <h2>Nadpis článku 4</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab saepe distinctio dolores eaque ipsam adipisci veritatis voluptatem quis tempore. Ex obcaecati harum est dicta tenetur alias sunt eaque modi aspernatur!</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam cum voluptatem maxime impedit, possimus iusto. Natus ab rerum saepe. Veniam minus totam, molestias dolores ab tenetur quibusdam libero maiores deserunt.</p>
+                </article>
+                <article class="card">
+                    <h2>Nadpis článku 5</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab saepe distinctio dolores eaque ipsam adipisci veritatis voluptatem quis tempore. Ex obcaecati harum est dicta tenetur alias sunt eaque modi aspernatur!</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam cum voluptatem maxime impedit, possimus iusto. Natus ab rerum saepe. Veniam minus totam, molestias dolores ab tenetur quibusdam libero maiores deserunt.</p>
+                </article>
+                <article class="card">
+                    <h2>Nadpis článku 6</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab saepe distinctio dolores eaque ipsam adipisci veritatis voluptatem quis tempore. Ex obcaecati harum est dicta tenetur alias sunt eaque modi aspernatur!</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam cum voluptatem maxime impedit, possimus iusto. Natus ab rerum saepe. Veniam minus totam, molestias dolores ab tenetur quibusdam libero maiores deserunt.</p>
+                </article>
+            </section>
+        </main>
+        <footer>
+            <p>&copy;WA&nbsp;2026 - Roman Hozák</p>
+        </footer>
+    </div>
+</body>
+</html>
