@@ -19,7 +19,7 @@
                 </div>
             <?php endforeach; ?>
         </div>
-        <?php unset($_SESSION['flash_messages']); ?>
+        <?php unset($_SESSION['flash_messages']); ?> 
     <?php endif; ?>
 
     <div class="mb-6 flex justify-between items-end">
